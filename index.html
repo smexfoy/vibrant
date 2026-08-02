@@ -189,7 +189,7 @@
 <body>
   <header class="header">
     <div class="header-inner">
-      <a class="logo-link" href="/vibrant">
+      <a class="logo-link" href="/vib">
         <img
           class="logo"
           src="https://nocache-appxdb-v2.classx.co.in/subject/2026-02-24-0.8461171343418096.png"
@@ -322,7 +322,7 @@
       button.className = "view-btn";
       button.textContent = "View Content";
       button.addEventListener("click", function () {
-        const url = "vibrant/batch?course_id=" + encodeURIComponent(batch.id) + "&cls=" + encodeURIComponent(batch.cls) +
+        const url = "/batch?course_id=" + encodeURIComponent(batch.id) + "&cls=" + encodeURIComponent(batch.cls) +
                     "&title=" + encodeURIComponent(batch.title);
         window.location.href = url;
       });
